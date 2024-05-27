@@ -49,10 +49,10 @@ dependencies {
     implementation libs.androidx.camera.camera2
     implementation libs.androidx.camera.lifecycle
     implementation libs.androidx.camera.view
+    implementation libs.barcode.scanning
 
 //    implementation libs.activity
-//    implementation libs.guava
-//    implementation libs.play.services.mlkit.face.detection
-//    implementation libs.barcode.scanning
+    implementation libs.guava
+    implementation libs.play.services.mlkit.face.detection
 
 }
